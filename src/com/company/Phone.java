@@ -3,27 +3,18 @@ package com.company;
 import java.awt.*;
 
 public class Phone {
-    private String model;
-    private int age;
+    //private String model;
+   // private String model;
 
 
-    public int getAge() {
-        return age;
-    }
 
-    public String getModel() {
-        return model;
-    }
 
-    public Phone(int age, String model) {
-        this.age = age;
-        this.model = model;
+
+
+    public void Info() {
+        System.out.println("--------------------" +
+                "\nInformatoin about " + getClass().getSimpleName() + ":" );
+
     }
-    public String Info(){
-        return "--------------------"+
-                "\nInformatoin about "  + getClass().getSimpleName() + ":" +
-                "\nModel: "+ model +
-                "\nAge " + age;
-    }
-    }
+}
 
